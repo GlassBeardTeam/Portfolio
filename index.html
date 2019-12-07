@@ -26,36 +26,34 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
+  <a class="menu-toggle rounded text-warning bg-dark" href="#">
+    <i class="fas fa-bars "></i>
   </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
+  <nav class="bg-dark" id="sidebar-wrapper">
+    <ul class="sidebar-nav bg-dark ">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Glass Beard Team</a>
+        <a class="js-scroll-trigger text-warning" href="#page-top">Glass Beard Team</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#videogames">Projects</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#team">Team</a>
-      </li>
-      <!--
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      -->
-  
+      </li>  
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact us</a>
       </li>
-
-    </ul>
+	  <li class="sidebar-nav-item">
+        <a class="twitter-timeline" data-width="250" data-height="500"data-theme="dark" data-link-color="#9266CC" 
+		 href="https://twitter.com/glass_beard">@glass_beard</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+    </ul>	
   </nav>
-
+  
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
@@ -63,23 +61,91 @@
       <h3 class="mb-3 text-warning">
         <em>Indie Videogame studio. Madrid, Spain.</em>
       </h3>
-      <a class="btn btn-muted btn-xl js-scroll-trigger " href="#about">Keep reading</a>
+      <a class="btn btn-muted btn-xl js-scroll-trigger text-white" href="#videogames">See what we are into!
+	  <i class="fas fa-arrow-down"></i>
+	  </a>
     </div>
     <div class="overlay"></div>
   </header>
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about" style="background-image: url('img/F2.png')">
+  <!-- About
+  <section class="content-section bg-light" id="GPS" style="background-image: url('img/F2.png')">
     <div class="container text-center" >
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Currently working on an arcade management videogame called Good Product Sorter.</h2>
+          <h2>We recently published an arcade management video game called Good Product Sorter.</h2>
           <p class="lead mb-5 text-white">You can give it a try here (link to itch.io):</p>
           <a class="btn btn-warning btn-x1 " href="https://glassbeard.itch.io/goodproductsorter">PLAY GPS</a>
         </div>
       </div>
     </div>
   </section>
+  
+  <section class="content-section bg-light" id="Pappets" style="background-image: url('img/pappetsFondo.png')">
+    <div class="container text-center" >
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2 class= "text-danger bg-dark">Now we are developing a 2D platform video game called Pappets.</h2>
+          <p class="lead mb-5 text-danger bg-dark">You can handle the threads of your customizable pappet here (link to itch.io):</p>
+          <a class="btn btn-warning btn-x1 " href="https://glassbeard.itch.io/pappets">PLAY Pappets</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ -->
+	<!-- Our videogames -->
+	<section class="content-section " id="videogames" style="background-image: url('img/F2.png')">
+	  <div class="container">
+	  
+		<div class="content-section-heading text-center">
+		  <h3 class="text-secondary mb-0">Projects
+		  <i class="fas fa-gamepad"></i>
+		  </h3>
+		  <h2 class="mb-5">Our recent video games</h2>
+		</div>
+		
+		<div class="row no-gutters">
+		  <div class="col-lg-6">
+			<a class="portfolio-item" href="https://glassbeard.itch.io/goodproductsorter">
+			  <span class="caption">
+				<span class="caption-content">
+				  <h1 class=" text-center text-dark">
+				  <i class="fas fa-box-open"></i>
+				  Good Product Sorter
+				  <i class="fas fa-box-open"></i>
+				  </h1>
+				  <p class="mb-0 text-center text-warning bg-dark">We recently published an arcade management video game called Good Product Sorter.
+						You can work at our humble factory here (link to itch.io)
+						<i class="fas fa-angle-down"></i>
+						</p>
+				</span>
+			  </span>
+			  <img class="img-fluid" src="img/MaquinaGif.gif" alt="">
+			</a>
+		  </div>
+		  
+		  <div class="col-lg-6">
+			<a class="portfolio-item" href="https://glassbeard.itch.io/pappets">
+			  <span class="caption">
+				<span class="caption-content">
+				  <h1 class= "text-center text-warning">
+				  <i class="fas fa-baby"></i>
+				  Pappets
+				  <i class="fas fa-baby"></i>
+				  </h1>
+				  <p class="mb-0 text-center text-warning">Currently we are developing a 2D platform video game called Pappets.
+				    You can handle the threads of your customizable pappet here (link to itch.io)
+					<i class="fas fa-angle-down"></i>
+					</p>
+				</span>
+			  </span>
+			  <img class="img-fluid" src="img/pappetsFondo4.jpg" alt="">
+			</a>
+		  </div>
+		  
+		</div>
+	  </div>
+	</section>
 
   <!-- Our team -->
   <section class="content-section bg-primary text-white text-center" id="team" style="background-image: url('img/F3.png')">
@@ -143,134 +209,54 @@
       </div>
     </div>
   </section>
-
-  <!-- Callout -->
-  <!--
-
-<section class="callout">
-  <div class="container text-center">
-    <h2 class="mx-auto mb-5">Welcome to
-      <em>your</em>
-      next website!</h2>
-    <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-  </div>
-</section>
-
- Portfolio 
-<section class="content-section" id="portfolio">
-  <div class="container">
-    <div class="content-section-heading text-center">
-      <h3 class="text-secondary mb-0">Portfolio</h3>
-      <h2 class="mb-5">Recent Projects</h2>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Stationary</h2>
-              <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Ice Cream</h2>
-              <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Strawberries</h2>
-              <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Workspace</h2>
-              <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-  -->
   
-  <!-- Call to Action -->
-  <!--
-  <section class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
+  <section class="content-section bg-primary text-white text-center" id="team" style="background-image: url('img/F3.png')">
+	  
   </section>
-  -->
 
-
-  <!-- Map -->
-  <!--
-  <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </section>
-  -->
   <!-- Footer -->
   <footer class="footer text-center" style="background-image: url('img/F4.png')">
     <div class="container" id="contact">
+	
+	<div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Contact us</h3>
+        <h2 class="mb-5 text-light">Social media</h2>
+      </div>
+	<!-- Twitter embed-->
+	<a class="twitter-timeline" data-width="500" data-height="600"data-theme="dark" data-link-color="#9266CC" 
+		 href="https://twitter.com/glass_beard">@glass_beard</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.youtube.com/channel/UCJsIbbIKmbcrgtMvDwL1Ogw?view_as=subscriber">
+          <a class="social-link rounded-circle text-white mr-3 bg-dark" href="https://www.youtube.com/channel/UCJsIbbIKmbcrgtMvDwL1Ogw?view_as=subscriber">
             <i class="icon-social-youtube text-warning"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/glass_beard">
+          <a class="social-link rounded-circle text-white mr-3 bg-dark" href="https://twitter.com/glass_beard">
             <i class="icon-social-twitter text-warning"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://github.com/GlassBeardTeam/GoodProductSorter">
+          <a class="social-link rounded-circle text-white mr-3 bg-dark" href="https://github.com/GlassBeardTeam/GoodProductSorter">
             <i class="icon-social-github text-warning"></i>
           </a>
         </li>
         
        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://fb.gg/play/409232109762447">
+          <a class="social-link rounded-circle text-white bg-dark" href="https://fb.gg/play/409232109762447">
             <i class="icon-social-facebook text-warning"></i>
           </a>
         </li>
-
-        
- 
       </ul>
       <p class="lead mb-3 text-warning">GlassBeardTeam@gmail.com</p>
-      <p class="text-white small mb-0 ">Copyright &copy; Your Website 2019</p>
+      <p class="text-white small mb-0 ">Copyright &copy; GlassBeardTeam 2019</p>
     </div>
   </footer>
 
   <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+  <a class="scroll-to-top rounded js-scroll-trigger text-warning" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
 
